@@ -1,9 +1,11 @@
 package umc_6th.spring_introduction.repository;
 
+import org.springframework.stereotype.Repository;
 import umc_6th.spring_introduction.domain.Member;
 
 import java.util.*;
 
+@Repository
 public class MemoryMemberRepository implements MemberRepository{
     private static Map<Long, Member> store = new HashMap<>();
     private static long sequence = 0L;
