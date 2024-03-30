@@ -1,5 +1,6 @@
 ## 1주차 정리 📝
 ***
+[참고] https://oyatplum.tistory.com/47
 ### 1. 웹 기초
 * 정적 컨텐츠
   * 관련 컨트롤러 X > html 파일 반환
