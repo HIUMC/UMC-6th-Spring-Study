@@ -20,17 +20,30 @@ public class MemberService {
   public MemberService(MemberRepository memberRepository) {
     this.memberRepository = memberRepository;
   }
+
   /**
    * 회원가입
+   *
    * @param member
    * @return
    */
   public Long join(Member member) {
+
+    long start = System.currentTimeMillis();
+
+    try {
+      validateDuplicateMemeber(member); // 중복 회원 금지
+      memberRepository.save(member);
+      return member.getId();
+    } finally { {
+        long finish = System.currentTimeMillis();
+        long timeMs = finish - start;
+        System.out.println("join = " + timeMs + "ms");
+    }
     //같은 이름이 있는 중복회원x
-    validateDuplicateMemeber(member); // 중복 회원 금지
-    memberRepository.save(member);
-    return member.getId();
+
   }
+}
 
   private void validateDuplicateMemeber(Member member) {
     memberRepository.findByName(member.getName())
@@ -45,7 +58,15 @@ public class MemberService {
    */
 
   public List<Member> findMembers() {
-    return memberRepository.findAll();
+    long start = System.currentTimeMillis();
+    try {
+      return memberRepository.findAll();
+    } finally {
+      long finish = System.currentTimeMillis();
+      long timeMs = finish - start;
+      System.out.println("findMembers " + timeMs + "ms");
+    }
+
   }
 
   public Optional<Member> findOne(Long memberId) {
