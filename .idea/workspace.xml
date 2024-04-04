@@ -5,24 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75c34802-a2d6-4604-9d7d-8c60a7d6e41c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/MemberApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/SpringPrinciplesApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/member/Grade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/member/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/member/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/member/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/member/MemberServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/member/MemoryMemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/SpringPrinciplesApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/member/MemberServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/OrderApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/discount/DiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/discount/FixDiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/order/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/order/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/order/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/order/OrderServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +40,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -73,6 +64,7 @@
   "keyToString": {
     "Gradle.MemberServiceTest.join.executor": "Run",
     "Gradle.spring_principles [:MemberApp.main()].executor": "Run",
+    "Gradle.spring_principles [:OrderApp.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "oyatplum",
@@ -86,9 +78,22 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.MemberServiceTest.join">
+  <component name="RunManager" selected="Gradle.Tests in 'umc_6th.spring_principles'">
     <configuration name="MemberApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="umc_6th.spring_principles.MemberApp" />
+      <module name="spring_principles.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="umc_6th.spring_principles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="umc_6th.spring_principles.OrderApp" />
       <module name="spring_principles.main" />
       <extension name="coverage">
         <pattern>
@@ -124,6 +129,54 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="OrderServiceTest.createOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/oyatplum/spring_principles" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;umc_6th.spring_principles.order.OrderServiceTest.createOrder&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'umc_6th.spring_principles'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/oyatplum/spring_principles" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;umc_6th.spring_principles.*&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="SpringPrinciplesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring_principles.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="umc_6th.spring_principles.SpringPrinciplesApplication" />
@@ -133,6 +186,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Tests in 'umc_6th.spring_principles'" />
+        <item itemvalue="Gradle.OrderServiceTest.createOrder" />
+        <item itemvalue="Application.OrderApp" />
         <item itemvalue="Gradle.MemberServiceTest.join" />
         <item itemvalue="Application.MemberApp" />
       </list>
@@ -153,7 +209,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712118353854</updated>
-      <workItem from="1712118354960" duration="5826000" />
+      <workItem from="1712118354960" duration="9151000" />
     </task>
     <servers />
   </component>
