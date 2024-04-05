@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75c34802-a2d6-4604-9d7d-8c60a7d6e41c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/discount/RateDiscountPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/discount/RateDiscountPolicyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/MemberApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/MemberApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/OrderApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/OrderApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/member/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/member/MemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/order/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/member/MemberServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/member/MemberServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/order/OrderServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/order/OrderServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +71,7 @@
     "Gradle.RateDiscountPolicyTest.vip_x.executor": "Run",
     "Gradle.Tests in 'umc_6th.spring_principles'.executor": "Run",
     "Gradle.spring_principles [:MemberApp.main()].executor": "Run",
-    "Gradle.spring_principles [:OrderApp.main()].executor": "Run",
+    "Gradle.spring_principles [:OrderApp.main()].executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -104,7 +96,7 @@
       <recent name="umc_6th.spring_principles.discount" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MemberServiceTest">
+  <component name="RunManager" selected="Application.OrderApp">
     <configuration name="MemberApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="umc_6th.spring_principles.MemberApp" />
       <module name="spring_principles.main" />
@@ -236,7 +228,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712118353854</updated>
       <workItem from="1712118354960" duration="10077000" />
-      <workItem from="1712237152101" duration="6963000" />
+      <workItem from="1712237152101" duration="9845000" />
     </task>
     <servers />
   </component>
