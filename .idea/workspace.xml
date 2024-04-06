@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75c34802-a2d6-4604-9d7d-8c60a7d6e41c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/MemberApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/MemberApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/OrderApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/OrderApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +15,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/oyatplum/spring_principles">
       <ProjectState />
     </projectState>
@@ -60,34 +62,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.MemberServiceTest.executor": "Run",
-    "Gradle.MemberServiceTest.join.executor": "Run",
-    "Gradle.OrderServiceTest.createOrder.executor": "Run",
-    "Gradle.OrderServiceTest.executor": "Run",
-    "Gradle.RateDiscountPolicyTest.executor": "Run",
-    "Gradle.RateDiscountPolicyTest.vip_o.executor": "Run",
-    "Gradle.RateDiscountPolicyTest.vip_x.executor": "Run",
-    "Gradle.Tests in 'umc_6th.spring_principles'.executor": "Run",
-    "Gradle.spring_principles [:MemberApp.main()].executor": "Run",
-    "Gradle.spring_principles [:OrderApp.main()].executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "oyatplum",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/yeji/Desktop/UMC-6th-Spring-Study",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.MemberServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MemberServiceTest.join.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.OrderServiceTest.createOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.OrderServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RateDiscountPolicyTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RateDiscountPolicyTest.vip_o.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RateDiscountPolicyTest.vip_x.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Tests in 'umc_6th.spring_principles'.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.spring_principles [:MemberApp.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.spring_principles [:OrderApp.main()].executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;oyatplum&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yeji/Desktop/UMC-6th-Spring-Study&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -96,7 +101,7 @@
       <recent name="umc_6th.spring_principles.discount" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OrderApp">
+  <component name="RunManager" selected="Application.MemberApp">
     <configuration name="MemberApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="umc_6th.spring_principles.MemberApp" />
       <module name="spring_principles.main" />
@@ -228,7 +233,10 @@
       <option name="presentableId" value="Default" />
       <updated>1712118353854</updated>
       <workItem from="1712118354960" duration="10077000" />
-      <workItem from="1712237152101" duration="9845000" />
+      <workItem from="1712237152101" duration="11705000" />
+      <workItem from="1712374449681" duration="140000" />
+      <workItem from="1712374622479" duration="416000" />
+      <workItem from="1712375641642" duration="185000" />
     </task>
     <servers />
   </component>
