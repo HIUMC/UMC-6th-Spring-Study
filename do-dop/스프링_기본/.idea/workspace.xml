@@ -69,6 +69,7 @@
     "Gradle.RateDiscountPolicyTest.executor": "Run",
     "Gradle.Tests in 'hello.core'.executor": "Run",
     "Gradle.core [:MemberApp.main()].executor": "Run",
+    "Gradle.core [:OrderApp.main()].executor": "Run",
     "Gradle.core.executor": "Run",
     "JUnit.RateDiscountPolicyTest.vip_o.executor": "Run",
     "JUnit.RateDiscountPolicyTest.vip_x.executor": "Run",
@@ -96,7 +97,7 @@
       <recent name="hello.core.discount" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MemberApp">
+  <component name="RunManager" selected="Application.OrderApp">
     <configuration name="MemberApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hello.core.MemberApp" />
       <module name="core.main" />
@@ -110,29 +111,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;hello.core.member.MemberServiceTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
+    <configuration name="OrderApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hello.core.OrderApp" />
+      <module name="core.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="RateDiscountPolicyTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -199,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrderApp" />
         <item itemvalue="Application.MemberApp" />
         <item itemvalue="Gradle.RateDiscountPolicyTest" />
         <item itemvalue="JUnit.RateDiscountPolicyTest.vip_x" />
         <item itemvalue="JUnit.RateDiscountPolicyTest.vip_o" />
-        <item itemvalue="Gradle.MemberServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +216,7 @@
       <workItem from="1712555558436" duration="64000" />
       <workItem from="1712555655367" duration="33000" />
       <workItem from="1712555694875" duration="14000" />
-      <workItem from="1712764364743" duration="1256000" />
+      <workItem from="1712764364743" duration="3566000" />
     </task>
     <servers />
   </component>
