@@ -143,7 +143,81 @@ AppConfig 처럼 객체를 생성하고 관리하면서 의존관계를 연결�
 스프링 빈은 `applicationContext.getBean()` 메서드를 사용 해서 찾을 수 있다.
 
 # <섹션 4 - 스프링 컨테이너와 스프링 빈>
+## 스프링 컨테이너 생성
 
+ApplicationContext → 컨테이너, 인터페이스
+
+1. 스프링 컨테이너 생성
+    1. 스프링 컨테이너 안에는 스프링 빈 저장소가 있음.
+    2. 스프링 컨테이너를 생성할 때는 구성 정보를 지정해줘야 함.
+2. 스프링 빈 등록
+    1. 스프링 컨테이너는 파라미터로 넘어온 설정 클래스 정보를 사용해 스프링 빈 등록
+    2. 빈 이름은 메서드 이름을 사용(직접 부여도 가능) → **항상 다른 이름 부여!**
+3. 스프링 빈 의존관계 설정 - 준비
+    1. 스프링 빈 생성
+4. 스프링 빈 의존관계 설정 - 완료
+    1. 의존관계를 주입(DI)
+
+## 컨테이너에 등록된 모든 빈 조회
+
+Role ROLE_APPLICATION : 직접 등록한 애플리케이션 빈
+
+Role ROLE_INFRASTRUCTURE : 스프링 내부에서 사용하는 빈
+
+## 스프링 빈 조회 - 기본
+
+## 스프링 빈 조회 - 동일한 타입이 둘 이상
+
+같은 타입이 둘 이상이면 오류 발생 → 빈 이름을 지정하자
+
+## 스프링 빈 조회 - 상속 관계
+
+부모 타입으로 조회하면, 자식 타입도 함께 조회됨.
+
+**assertThrow?**
+
+- 예외가 발생하는지를 확인하는 데 사용된다.
+
+    ```java
+    assertThrows(NoUniqueBeanDefinitionException.class, () -> ac.getBean(DiscountPolicy.class));
+    //NoUniqueBeanDefinitionException.class는 예상되는 예외 유형, ac 애플리케이션 컨텍스트에서 DiscountPolicy 타입의 빈이 유일하지 않을 때 예외가 발생하는지를 확인
+    ```
+
+
+**assertThat?(AssertJ라이브러리)**
+
+- 특정 조건을 검증하기 위해 사용되며 예상되는 결과와 실제 결과를 비교하여 테스트를 수행한다.
+
+    ```java
+    assertThat(rateDiscountPolicy).isInstanceOf(RateDiscountPolicy.class);
+    //rateDiscountPolicy 객체가 RateDiscountPolicy 클래스의 인스턴스인지를 검증
+    ```
+
+
+**object type?**
+
+Object는 Java에서 모든 클래스의 부모 클래스
+
+따라서 **`Object`** 타입으로 조회하면 애플리케이션 컨텍스트에 등록된 모든 빈을 조회할 수 있습니다.
+
+## BeanFactory와 ApplicationContext
+
+**“BeanFactory”**
+
+- 스프링 컨테이너의 최상위 인터페이스
+- 스프링 빈을 관리하고 조회
+
+**“ApplicationContext”**
+
+- BeanFactory 기능을 모두 상속받아서 제공
+- 스프링 빈 관리/조회 외에 많은 부가기능 필요
+- MessageSource, EnvironmentCapable, ApplicationEventPublisher, ResourceLoader
+
+## 다양한 설정 형식 지원 - 자바 코드, XML
+
+스프링 컨테이너는 다양한 형식의 설정 정보를 받아드릴 수 있게 유연하게 설계되어 있음
+
+## 스프링 빈 설정 메타 정보 - BeanDefinition
 # <섹션 5 - 싱글톤 컨테이너>
 # <섹션 6 - 컴포넌트 스캔>
 # <섹션 7 - 의존관계 자동 주입>
