@@ -1,5 +1,9 @@
 package hello.core.member;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class MemberServiceImpl implements MemberService{
 
   // MemoryMemberRepisitory 구현객체 설정 삭제
@@ -7,6 +11,7 @@ public class MemberServiceImpl implements MemberService{
 
   //MemberRepository에 무엇이 들어갈지를 생성자를 통해서 정한다.
   //MemberServiceImpl에 MemoryMemberRepository에 관한 코드가 없다. 즉, 의존하지 않는다.
+  @Autowired
   public MemberServiceImpl(MemberRepository memberRepository) {
 
     this.memberRepository = memberRepository;
@@ -22,5 +27,10 @@ public class MemberServiceImpl implements MemberService{
   @Override
   public Member findMember(Long memberId) {
     return memberRepository.findById(memberId);
+  }
+
+  //테스트 용도
+  public MemberRepository getMemberRepository() {
+    return memberRepository;
   }
 }
