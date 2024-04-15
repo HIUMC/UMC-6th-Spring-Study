@@ -1,37 +1,40 @@
 package hello.hellospring.service;
 
 import hello.hellospring.domain.Member;
-import hello.hellospring.repository.MemoryMemberRepository;
+import hello.hellospring.repository.MemberRepository;
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.transaction.annotation.Transactional;
 
-import static org.assertj.core.api.Assertions.*;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
-class MemberServiceTest {
-    //테스트는 이름을 한글로 바꿔도 됨
 
-    MemberService memberService;
-    MemoryMemberRepository memberRepository;
+@SpringBootTest     //스프링 컨테이너와 테스트를 함께 실행한다.
+@Transactional
+//덕분에 AfterEach 필요 없음
+class MemberServiceIntergrationTest {
+
+    @Autowired MemberService memberService;
+    @Autowired MemberRepository memberRepository;
     //굳이 두개를 ? 다른 두개의 repository를 이용중.. 비효율적?
 
-    @BeforeEach
-    public void beforeEach(){
-        memberRepository=new MemoryMemberRepository();
-        memberService=new MemberService(memberRepository);
-    }
-
-
+/*
     @AfterEach
     public void afterEach(){
-        memberRepository.clearStore();
-    }
+        //어쩌고... 하기 귀찮 ㅇㅇ
+    }*/
+    //그럼 롤백을 해보면????? ==>Transactional
+    //일케하면 DB에 데이터가 남지않음 ==> 즉 다음 테스트가 계속 가능함 ㅇㅇ
+
     @Test
     void 회원가입() {
         //given
         Member member=new Member();
-        member.setName("hello");
+        member.setName("spring"); //DB에 있으니 오류 ㅇㅇ 지우고오니 되네여
 
         //when
         Long saveId=memberService.join(member);
@@ -55,24 +58,6 @@ class MemberServiceTest {
         IllegalStateException e = assertThrows(IllegalStateException.class, () -> memberService.join(member2));
 
         assertThat(e.getMessage()).isEqualTo("이미 존재하는 회원입니다.");
-        //member어쩌고가 실행되면 Illegal어쩌고 예외가 터져야함
 
-//        try {
-//            memberService.join(member2);
-//            fail();
-//        } catch (IllegalStateException e){
-//            assertThat(e.getMessage()).isEqualTo("이미 존재하는 회원입니다.");
-//            //메세지 내용이 다르면 fail
-//        }
-//
-//        //then
-    }
-
-    @Test
-    void findMembers() {
-    }
-
-    @Test
-    void findOne() {
     }
 }
