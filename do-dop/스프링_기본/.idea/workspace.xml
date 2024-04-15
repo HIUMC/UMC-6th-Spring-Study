@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dcdff475-9c27-4f86-ba26-251f3a05c62a" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/core">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/core">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="core" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2emh5Bq7yJbbkYrOCjrBOgwVonA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.ApplicationContextBasicFindTest.executor": "Run",
+    "Gradle.ApplicationContextBasicFindTest.findBeanByName2.executor": "Run",
+    "Gradle.ApplicationContextBasicFindTest.findBeanByNameX.executor": "Run",
+    "Gradle.ApplicationContextInfoTest.executor": "Run",
+    "Gradle.ApplicationContextInfoTest.findApplicationBean.executor": "Run",
+    "Gradle.ApplicationContextSameBeanFindTest.executor": "Run",
+    "Gradle.ApplicationContextSameBeanFindTest.findAllBeanByType.executor": "Run",
+    "Gradle.ApplicationContextSameBeanFindTest.findBeanByTypeDuplicate.executor": "Run",
+    "Gradle.CoreApplicationTests.contextLoads.executor": "Run",
+    "Gradle.MemberServiceTest.executor": "Run",
+    "Gradle.RateDiscountPolicyTest.executor": "Run",
+    "Gradle.Tests in 'hello.core'.executor": "Run",
+    "Gradle.core [:MemberApp.main()].executor": "Run",
+    "Gradle.core [:OrderApp.main()].executor": "Run",
+    "Gradle.core.executor": "Run",
+    "JUnit.ApplicationContextExtendsFindTest.findBeanByObjectType.executor": "Run",
+    "JUnit.ApplicationContextExtendsFindTest.findBeanByParentType.executor": "Run",
+    "JUnit.ApplicationContextExtendsFindTest.findBeanByParentTypeBeanName.executor": "Run",
+    "JUnit.ApplicationContextExtendsFindTest.findBeanByParentTypeDuplicate.executor": "Run",
+    "JUnit.ApplicationContextExtendsFindTest.findBeanBySubType.executor": "Run",
+    "JUnit.BeanDefinitionTest.findApplicationBean.executor": "Run",
+    "JUnit.ConfigurationSingletonTest.executor": "Run",
+    "JUnit.RateDiscountPolicyTest.vip_o.executor": "Run",
+    "JUnit.RateDiscountPolicyTest.vip_x.executor": "Run",
+    "JUnit.SingletonTest.pureContainer.executor": "Run",
+    "JUnit.SingletonTest.singletonServiceTest.executor": "Run",
+    "JUnit.StatefulServiceTest.statefulServiceSingleton.executor": "Run",
+    "JUnit.XmlAppContext.xmlAppContext.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/bagdoyeon/Desktop/UMC-6th/UMC-6th-Spring-Study/do-dop/스프링_기본",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="hello.core.singleton" />
+      <recent name="hello.core.discount" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ConfigurationSingletonTest">
+    <configuration name="BeanDefinitionTest.findApplicationBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.beandefinitionTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.beandefinitionTest" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.beandefinitionTest.BeanDefinitionTest" />
+      <option name="METHOD_NAME" value="findApplicationBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigurationSingletonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.singleton" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.singleton.ConfigurationSingletonTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonTest.pureContainer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.singleton" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.singleton.SingletonTest" />
+      <option name="METHOD_NAME" value="pureContainer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonTest.singletonServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.singleton" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.singleton.SingletonTest" />
+      <option name="METHOD_NAME" value="singletonServiceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatefulServiceTest.statefulServiceSingleton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.singleton" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.singleton.StatefulServiceTest" />
+      <option name="METHOD_NAME" value="statefulServiceSingleton" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="core.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.core.CoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ConfigurationSingletonTest" />
+        <item itemvalue="JUnit.StatefulServiceTest.statefulServiceSingleton" />
+        <item itemvalue="JUnit.SingletonTest.singletonServiceTest" />
+        <item itemvalue="JUnit.SingletonTest.pureContainer" />
+        <item itemvalue="JUnit.BeanDefinitionTest.findApplicationBean" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dcdff475-9c27-4f86-ba26-251f3a05c62a" name="Changes" comment="" />
+      <created>1712515474949</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712515474949</updated>
+      <workItem from="1712515476042" duration="329000" />
+      <workItem from="1712517016584" duration="4402000" />
+      <workItem from="1712554614158" duration="20000" />
+      <workItem from="1712554637050" duration="21000" />
+      <workItem from="1712554660959" duration="23000" />
+      <workItem from="1712554686109" duration="31000" />
+      <workItem from="1712554719964" duration="8000" />
+      <workItem from="1712554749058" duration="50000" />
+      <workItem from="1712555558436" duration="64000" />
+      <workItem from="1712555655367" duration="33000" />
+      <workItem from="1712555694875" duration="14000" />
+      <workItem from="1712764364743" duration="7746000" />
+      <workItem from="1713103868946" duration="8452000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
