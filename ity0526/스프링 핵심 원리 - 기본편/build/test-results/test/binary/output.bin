@@ -1,0 +1,18 @@
+O17:20:03.207 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext --
+m                Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2cc44ad
+I17:20:03.212 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+�                Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+K17:20:03.232 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner --
+�                Identified candidate component class: file [/Users/intaeyoung/Desktop/UMC-6th-Spring-Study/ity0526/스프링 핵심 원리 - 기본편/build/classes/java/test/hello/core/scan/filter/BeanA.class]
+I17:20:03.261 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+~                Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+I17:20:03.262 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+|                Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+I17:20:03.263 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+�                Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+I17:20:03.263 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+�                Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+I17:20:03.266 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+s                Creating shared instance of singleton bean 'componentFilterAppConfigTest.ComponentFilterAppConfig'
+I17:20:03.268 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+C                Creating shared instance of singleton bean 'beanA'
