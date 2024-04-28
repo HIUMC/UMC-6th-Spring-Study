@@ -219,7 +219,163 @@ Object는 Java에서 모든 클래스의 부모 클래스
 
 ## 스프링 빈 설정 메타 정보 - BeanDefinition
 # <섹션 5 - 싱글톤 컨테이너>
+## 웹 애플리케이션과 싱글톤
+
+## 싱글톤 패턴
+
+클래스 인스턴스가 딱 1개만 생성되는 것을 보장하는 디자인 패턴 !
+
+→ 객체 인스턴스를 2개 이상 생성하지 못하도록 private 생성자를 사용해서 외부에서 임의로 new 키워드를 사용하지 못하도록 막음.
+
+단점 : 코드를 많이 짜야함, 구체클래스에 의존하게 됨, 테스트하기 어려움, 내부 속성을 변경하고 초기화하기 어려움 → 유연성 떨어짐(안티패턴)
+
+## 싱글톤 컨테이너
+
+스프링 컨테이너는 싱글톤 패턴을 적용하지 않아도, 객체 인스턴스를 싱글톤으로 관리한다. → 싱글톤 패턴의 단점 보완
+
+## 싱글톤 방식의 주의점
+
+여러 클라이언트가 공유하기 때문에 싱글톤 객체는 상태를 유지하게 설계하면 안 된다. → **무상태(stateless)**로 설계 !!
+
+## @Configuration과 싱글톤
+
+## @Configuration과 바이트코드 조작의 마법
+
+클래스의 바이트 코드 조작 라이브러리(CGLIB 기술)를 사용해서 Appconfig 클래스를 상속받은 임의의 다른 클래스를 만들고, 그 다른 클래스를 스프링 빈으로 등록!
+
+```sql
+@Bean
+public MemberRepository memberRepository() {
+	if (memoryMemberRepository가 이미 스프링 컨테이너에 등록되어 있으면?) { 
+		return 스프링 컨테이너에서 찾아서 반환;
+	} else { //스프링 컨테이너에 없으면 기존 로직을 호출해서 MemoryMemberRepository를 생성하고 스프링 컨테이너에 등록 
+		return 반환
+	}
+}
+```
+
+@Configuration을 빼도 되지만, 빼게 되면??
+
+→ **싱글톤을 보장하지 않는다**
+
+<정리>
+
+- @Bean만 사용해도 스프링 빈으로 등록되지만, 싱글톤을 보장하지 않는다.
+- `memberRepository()` 처럼 의존관계 주입이 필요해서 메서드를 직접 호출할 때 싱글톤을 보장하지 않 는다.
+- 크게 고민할 것이 없다. 스프링 설정 정보는 항상 `@Configuration` 을 사용하자.## 웹 애플리케이션과 싱글톤
+
+## 싱글톤 패턴
+
+클래스 인스턴스가 딱 1개만 생성되는 것을 보장하는 디자인 패턴 !
+
+→ 객체 인스턴스를 2개 이상 생성하지 못하도록 private 생성자를 사용해서 외부에서 임의로 new 키워드를 사용하지 못하도록 막음.
+
+단점 : 코드를 많이 짜야함, 구체클래스에 의존하게 됨, 테스트하기 어려움, 내부 속성을 변경하고 초기화하기 어려움 → 유연성 떨어짐(안티패턴)
+
+## 싱글톤 컨테이너
+
+스프링 컨테이너는 싱글톤 패턴을 적용하지 않아도, 객체 인스턴스를 싱글톤으로 관리한다. → 싱글톤 패턴의 단점 보완
+
+## 싱글톤 방식의 주의점
+
+여러 클라이언트가 공유하기 때문에 싱글톤 객체는 상태를 유지하게 설계하면 안 된다. → **무상태(stateless)**로 설계 !!
+
+## @Configuration과 싱글톤
+
+## @Configuration과 바이트코드 조작의 마법
+
+클래스의 바이트 코드 조작 라이브러리(CGLIB 기술)를 사용해서 Appconfig 클래스를 상속받은 임의의 다른 클래스를 만들고, 그 다른 클래스를 스프링 빈으로 등록!
+
+```sql
+@Bean
+public MemberRepository memberRepository() {
+	if (memoryMemberRepository가 이미 스프링 컨테이너에 등록되어 있으면?) { 
+		return 스프링 컨테이너에서 찾아서 반환;
+	} else { //스프링 컨테이너에 없으면 기존 로직을 호출해서 MemoryMemberRepository를 생성하고 스프링 컨테이너에 등록 
+		return 반환
+	}
+}
+```
+
+@Configuration을 빼도 되지만, 빼게 되면??
+
+→ **싱글톤을 보장하지 않는다**
+
+<정리>
+
+- @Bean만 사용해도 스프링 빈으로 등록되지만, 싱글톤을 보장하지 않는다.
+- `memberRepository()` 처럼 의존관계 주입이 필요해서 메서드를 직접 호출할 때 싱글톤을 보장하지 않 는다.
+- 크게 고민할 것이 없다. 스프링 설정 정보는 항상 `@Configuration` 을 사용하자.
 # <섹션 6 - 컴포넌트 스캔>
+## 컴포넌트 스캔과 의존관계 자동 주입
+
+스프링은 자동으로 스프링 빈을 등록하는 **컴포넌트 스캔**이라는 기능을 제공하고, 의존관계도 자동으로 주입하는 `@Autowired` 라는 기능도 제공한다.
+
+@Component를 사용할 때 의존관계를 주입하기 위해 @Autowired를 사용한다.
+
+(이전에 AppConfig에서는 `@Bean` 으로 직접 설정 정보를 작성했고, 의존관계도 직접 명시했다.)
+
+## 탐색 위치와 기본 스캔 대상
+
+```jsx
+@ComponentScan(
+         basePackages = "hello.core",
+}
+```
+
+- basePackages` : 탐색할 패키지의 시작 위치를 지정
+
+  지정하지 않으면 `@ComponentScan` 이 붙은 설정 정보 클래스의 패키지가 시작 위치가 된다.
+
+
+**권장하는 방법**
+
+패키지 위치를 지정하지 않고, 설정 정보 클래스의 위치를 프로젝트 최상단에 두는 것
+
+컴포넌트 스캔은 `@Component` 뿐만 아니라 다음과 내용도 추가로 대상에 포함한다. 
+
+`@Component` : 컴포넌트 스캔에서 사용
+
+`@Controller` : 스프링 MVC 컨트롤러에서 사용
+
+`@Service` : 스프링 비즈니스 로직에서 사용
+
+`@Repository` : 스프링 데이터 접근 계층에서 사용
+
+`@Configuration` : 스프링 설정 정보에서 사
+
+## 필터
+
+- `includeFilters` : 컴포넌트 스캔 대상을 추가로 지정한다.
+- `excludeFilters` : 컴포넌트 스캔에서 제외할 대상을 지정한다
+
+**<FilterType 5가지 옵션>**
+
+**ANNOTATION**: 기본값, 애노테이션을 인식해서 동작한다. ex) `org.example.SomeAnnotation`
+
+**ASSIGNABLE_TYPE**: 지정한 타입과 자식 타입을 인식해서 동작한다. ex) `org.example.SomeClass`
+
+**ASPECTJ**: AspectJ 패턴 사용 ex) `org.example..*Service+`
+
+**REGEX**: 정규 표현식 ex) `org\.example\.Default.*`
+
+**CUSTOM**: `TypeFilter` 이라는 인터페이스를 구현해서 처리 ex) `org.example.MyTypeFilter`
+
+## 중복 등록과 충돌
+
+컴포넌트 스캔에 같은 빈 이름을 등록했을 때
+
+1. 자동 빈등록 vs 자동 빈등록
+
+자동으로 스프링 빈이 등록돼서 거의 없음, `ConflictingBeanDefinitionException` 예외 발생
+
+2. 수동 빈등록 vs 자동 빈등록
+
+수동 빈 등록이 우선권을 가짐.
+
+최근 스프링은 오류를 내버림
+
+`Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true`
 # <섹션 7 - 의존관계 자동 주입>
 # <섹션 8 - 빈 생명주기 콜백>
 # <섹션 9 - 빈 스코프>
