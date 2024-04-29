@@ -5,19 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcdff475-9c27-4f86-ba26-251f3a05c62a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../.idea/UMC-6th-Spring-Study.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/scan/filter/BeanA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/scan/filter/BeanB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/scan/filter/ComponentFilterAppConfigTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/scan/filter/MyExcludeComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/scan/filter/MyIncludeComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/annotation/MainDiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/HelloLombok.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/autowired/AllBeanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/autowired/AutowiredTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/lifecycle/BeanLifeCycleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/lifecycle/NetworkClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/scope/PrototypeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/scope/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/scope/SingletonWithPrototypeTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pratice/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pratice/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pratice/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pratice/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pratice/pratice.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/core/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/hello/core/discount/FixDiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/discount/FixDiscountPolicy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/hello/core/discount/RateDiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/discount/RateDiscountPolicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/hello/core/member/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/member/MemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/hello/core/member/MemoryMemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/member/MemoryMemberRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/hello/core/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/order/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/test/java/hello/core/singleton/ConfigurationSingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/singleton/ConfigurationSingletonTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +88,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Gradle.ApplicationContextBasicFindTest.executor": "Run",
     "Gradle.ApplicationContextBasicFindTest.findBeanByName2.executor": "Run",
     "Gradle.ApplicationContextBasicFindTest.findBeanByNameX.executor": "Run",
@@ -96,6 +104,9 @@
     "Gradle.core [:MemberApp.main()].executor": "Run",
     "Gradle.core [:OrderApp.main()].executor": "Run",
     "Gradle.core.executor": "Run",
+    "JUnit.All in core.test (1).executor": "Run",
+    "JUnit.All in core.test.executor": "Run",
+    "JUnit.AllBeanTest.executor": "Run",
     "JUnit.ApplicationContextExtendsFindTest.findBeanByObjectType.executor": "Run",
     "JUnit.ApplicationContextExtendsFindTest.findBeanByParentType.executor": "Run",
     "JUnit.ApplicationContextExtendsFindTest.findBeanByParentTypeBeanName.executor": "Run",
@@ -103,18 +114,30 @@
     "JUnit.ApplicationContextExtendsFindTest.findBeanBySubType.executor": "Run",
     "JUnit.AutoAppConfigTest.basicScan.executor": "Run",
     "JUnit.AutoAppConfigTest.executor": "Run",
+    "JUnit.AutowiredTest.executor": "Run",
     "JUnit.BeanDefinitionTest.findApplicationBean.executor": "Run",
+    "JUnit.BeanLifeCycleTest.lifeCycleTest.executor": "Run",
     "JUnit.ComponentFilterAppConfigTest.executor": "Run",
     "JUnit.ConfigurationSingletonTest.executor": "Run",
+    "JUnit.CoreApplicationTests.contextLoads.executor": "Run",
+    "JUnit.PrototypeTest.executor": "Run",
+    "JUnit.PrototypeTest.prototypeBeanFind.executor": "Run",
     "JUnit.RateDiscountPolicyTest.vip_o.executor": "Run",
     "JUnit.RateDiscountPolicyTest.vip_x.executor": "Run",
     "JUnit.SingletonTest.pureContainer.executor": "Run",
+    "JUnit.SingletonTest.singletonBeanFind.executor": "Run",
     "JUnit.SingletonTest.singletonServiceTest.executor": "Run",
+    "JUnit.SingletonWithPrototypeTest1.singletonClientUsePrototype.executor": "Run",
     "JUnit.StatefulServiceTest.statefulServiceSingleton.executor": "Run",
     "JUnit.XmlAppContext.xmlAppContext.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "do-dop",
@@ -126,7 +149,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -139,79 +162,80 @@
       <recent name="hello.core.discount" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ComponentFilterAppConfigTest">
-    <configuration name="AutoAppConfigTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SingletonWithPrototypeTest1">
+    <configuration name="PrototypeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hello.core.scan.*" />
+          <option name="PATTERN" value="hello.core.scope.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hello.core.scan" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.scan.AutoAppConfigTest" />
+      <option name="PACKAGE_NAME" value="hello.core.scope" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.scope.PrototypeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoAppConfigTest.basicScan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrototypeTest.prototypeBeanFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hello.core.scan.*" />
+          <option name="PATTERN" value="hello.core.scope.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hello.core.scan" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.scan.AutoAppConfigTest" />
-      <option name="METHOD_NAME" value="basicScan" />
+      <option name="PACKAGE_NAME" value="hello.core.scope" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.scope.PrototypeTest" />
+      <option name="METHOD_NAME" value="prototypeBeanFind" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComponentFilterAppConfigTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SingletonTest.singletonBeanFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hello.core.scan.filter.*" />
+          <option name="PATTERN" value="hello.core.scope.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hello.core.scan.filter" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.scan.filter.ComponentFilterAppConfigTest" />
+      <option name="PACKAGE_NAME" value="hello.core.scope" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.scope.SingletonTest" />
+      <option name="METHOD_NAME" value="singletonBeanFind" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonWithPrototypeTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.scope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.scope" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.scope.SingletonWithPrototypeTest1" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigurationSingletonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SingletonWithPrototypeTest1.singletonClientUsePrototype" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hello.core.singleton.*" />
+          <option name="PATTERN" value="hello.core.scope.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hello.core.singleton" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.singleton.ConfigurationSingletonTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StatefulServiceTest.statefulServiceSingleton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.singleton" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.singleton.StatefulServiceTest" />
-      <option name="METHOD_NAME" value="statefulServiceSingleton" />
+      <option name="PACKAGE_NAME" value="hello.core.scope" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.scope.SingletonWithPrototypeTest1" />
+      <option name="METHOD_NAME" value="singletonClientUsePrototype" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -226,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ComponentFilterAppConfigTest" />
-        <item itemvalue="JUnit.AutoAppConfigTest" />
-        <item itemvalue="JUnit.AutoAppConfigTest.basicScan" />
-        <item itemvalue="JUnit.ConfigurationSingletonTest" />
-        <item itemvalue="JUnit.StatefulServiceTest.statefulServiceSingleton" />
+        <item itemvalue="JUnit.SingletonWithPrototypeTest1" />
+        <item itemvalue="JUnit.SingletonWithPrototypeTest1.singletonClientUsePrototype" />
+        <item itemvalue="JUnit.PrototypeTest.prototypeBeanFind" />
+        <item itemvalue="JUnit.PrototypeTest" />
+        <item itemvalue="JUnit.SingletonTest.singletonBeanFind" />
       </list>
     </recent_temporary>
   </component>
@@ -262,11 +286,15 @@
       <workItem from="1712555694875" duration="14000" />
       <workItem from="1712764364743" duration="7746000" />
       <workItem from="1713103868946" duration="11267000" />
-      <workItem from="1714319145264" duration="2375000" />
+      <workItem from="1714319145264" duration="9684000" />
+      <workItem from="1714373265727" duration="3774000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
