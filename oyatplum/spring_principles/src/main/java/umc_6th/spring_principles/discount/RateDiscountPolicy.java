@@ -1,8 +1,10 @@
 package umc_6th.spring_principles.discount;
 
+import org.springframework.stereotype.Component;
 import umc_6th.spring_principles.member.Grade;
 import umc_6th.spring_principles.member.Member;
 
+@Component
 public class RateDiscountPolicy implements DiscountPolicy{
     private int discountPercent = 10;
     @Override

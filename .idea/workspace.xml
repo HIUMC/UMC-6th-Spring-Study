@@ -5,13 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c473387c-a6b4-4eb2-a974-987b81c05918" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/resources/appConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/beanDefinition/BeanDefinitionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/beanfind/ApplicationContextBasicFindTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/beanfind/ApplicationContextExtendsFindTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/beanfind/ApplicationContextInfoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/beanfind/ApplicationContextSameBeanFindTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/xml/XmlAppContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/AutoAppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/scan/AutoAppConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/scan/filter/BeanA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/scan/filter/BeanB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/scan/filter/ComponentFilterAppConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/scan/filter/MyExcludeComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/scan/filter/MyIncludeComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/singleton/ConfigurationSingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/singleton/SingletonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/singleton/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/singleton/StatefulService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/singleton/StatefulServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/discount/RateDiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/discount/RateDiscountPolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/member/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/member/MemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/member/MemoryMemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/member/MemoryMemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/order/OrderServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +37,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/oyatplum/spring_principles">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -39,6 +53,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="JUnit5 Test Class" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -71,10 +87,21 @@
     "Gradle.ApplicationContextInfoTest.findApplicationBean.executor": "Run",
     "Gradle.ApplicationContextSameBeanFindTest.executor": "Run",
     "Gradle.ApplicationContextSameBeanFindTest.findAllBeanByType.executor": "Run",
+    "Gradle.AutoAppConfigTest.executor": "Run",
     "Gradle.BeanDefinitionTest.executor": "Run",
+    "Gradle.ComponentFilterAppConfigTest.executor": "Run",
+    "Gradle.ConfigurationSingletonTest.configurationTest.executor": "Run",
+    "Gradle.ConfigurationSingletonTest.executor": "Run",
+    "Gradle.SingletonTest.executor": "Run",
+    "Gradle.SingletonTest.pureContainer.executor": "Run",
+    "Gradle.SingletonTest.singletonServiceTest.executor": "Run",
+    "Gradle.SingletonTest.springContainer.executor": "Run",
+    "Gradle.StatefulServiceTest.executor": "Run",
     "Gradle.XmlAppContext.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "oyatplum",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -85,8 +112,19 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.BeanDefinitionTest">
-    <configuration name="ApplicationContextExtendsFindTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="umc_6th.spring_principles.singleton" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="umc_6th.spring_principles.scan.filter" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.AutoAppConfigTest">
+    <configuration name="AutoAppConfigTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/oyatplum/spring_principles" />
@@ -99,7 +137,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;umc_6th.spring_principles.beanfind.ApplicationContextExtendsFindTest&quot;" />
+            <option value="&quot;umc_6th.spring_principles.scan.AutoAppConfigTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -110,7 +148,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ApplicationContextExtendsFindTest.findAllBeanByObjectType" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ComponentFilterAppConfigTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/oyatplum/spring_principles" />
@@ -123,7 +161,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;umc_6th.spring_principles.beanfind.ApplicationContextExtendsFindTest.findAllBeanByObjectType&quot;" />
+            <option value="&quot;umc_6th.spring_principles.scan.filter.ComponentFilterAppConfigTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -134,7 +172,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ApplicationContextSameBeanFindTest.findAllBeanByType" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ConfigurationSingletonTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/oyatplum/spring_principles" />
@@ -147,7 +185,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;umc_6th.spring_principles.beanfind.ApplicationContextSameBeanFindTest.findAllBeanByType&quot;" />
+            <option value="&quot;umc_6th.spring_principles.singleton.ConfigurationSingletonTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -158,7 +196,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="BeanDefinitionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ConfigurationSingletonTest.configurationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/oyatplum/spring_principles" />
@@ -171,7 +209,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;umc_6th.spring_principles.beanDefinition.BeanDefinitionTest&quot;" />
+            <option value="&quot;umc_6th.spring_principles.singleton.ConfigurationSingletonTest.configurationTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -182,7 +220,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="XmlAppContext" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StatefulServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/oyatplum/spring_principles" />
@@ -195,7 +233,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;umc_6th.spring_principles.xml.XmlAppContext&quot;" />
+            <option value="&quot;umc_6th.spring_principles.singleton.StatefulServiceTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -208,11 +246,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.BeanDefinitionTest" />
-        <item itemvalue="Gradle.XmlAppContext" />
-        <item itemvalue="Gradle.ApplicationContextExtendsFindTest.findAllBeanByObjectType" />
-        <item itemvalue="Gradle.ApplicationContextExtendsFindTest" />
-        <item itemvalue="Gradle.ApplicationContextSameBeanFindTest.findAllBeanByType" />
+        <item itemvalue="Gradle.AutoAppConfigTest" />
+        <item itemvalue="Gradle.ComponentFilterAppConfigTest" />
+        <item itemvalue="Gradle.ConfigurationSingletonTest" />
+        <item itemvalue="Gradle.ConfigurationSingletonTest.configurationTest" />
+        <item itemvalue="Gradle.StatefulServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +271,7 @@
       <updated>1712376471904</updated>
       <workItem from="1712376473002" duration="142000" />
       <workItem from="1712409271042" duration="12950000" />
-      <workItem from="1714302875948" duration="3947000" />
+      <workItem from="1714302875948" duration="19556000" />
     </task>
     <servers />
   </component>
