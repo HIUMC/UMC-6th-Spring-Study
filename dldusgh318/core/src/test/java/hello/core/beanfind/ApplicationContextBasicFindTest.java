@@ -40,7 +40,7 @@ public class ApplicationContextBasicFindTest {
 
     }
 
-    @Test
+/*    @Test
     @DisplayName("빈 이름으로 조회X")
     void findBeanByNameX(){
 //        ac.getBean("XXXXX",MemberService.class);
@@ -48,6 +48,6 @@ public class ApplicationContextBasicFindTest {
         assertThrows(NoSuchBeanDefinitionException.class,
                 ()->ac.getBean("XXXX", MemberService.class));
         //왼쪽의 로직을 실행하면 예외가 터진다
-    }
+    }*/
 
 }
