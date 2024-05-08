@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcdff475-9c27-4f86-ba26-251f3a05c62a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/common/MyLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/web/LogDemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/web/LogDemoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/core/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/hello/core/member/MemoryMemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/member/MemoryMemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/test/java/hello/core/scope/SingletonWithPrototypeTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/scope/SingletonWithPrototypeTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-    </list>
+    <list default="true" id="dcdff475-9c27-4f86-ba26-251f3a05c62a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -279,7 +270,7 @@
       <workItem from="1712764364743" duration="7746000" />
       <workItem from="1713103868946" duration="11267000" />
       <workItem from="1714319145264" duration="9684000" />
-      <workItem from="1714373265727" duration="10830000" />
+      <workItem from="1714373265727" duration="13572000" />
     </task>
     <servers />
   </component>
