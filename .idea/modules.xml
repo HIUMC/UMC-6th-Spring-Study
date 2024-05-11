@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/UMC-6th-Spring-Study.iml" filepath="$PROJECT_DIR$/.idea/UMC-6th-Spring-Study.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot_jpa.main.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot_jpa.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot_jpa.test.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot_jpa.test.iml" />
     </modules>
   </component>
 </project>

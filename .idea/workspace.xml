@@ -5,41 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c473387c-a6b4-4eb2-a974-987b81c05918" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/springboot_jpa.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/SpringbootJpaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/Delivery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/DeliveryStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/OrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/item/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/item/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/item/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/item/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/resources/templates/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/test/java/umc_6th/springboot_jpa/MemberRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/test/java/umc_6th/springboot_jpa/SpringbootJpaApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/springboot_jpa.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/exception/NotEnoughStockException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/repository/ItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/repository/OrderSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/service/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/test/java/umc_6th/springboot_jpa/service/MemberServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/test/java/umc_6th/springboot_jpa/service/OrderServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/test/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/item/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/item/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/test/java/umc_6th/springboot_jpa/MemberRepositoryTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +102,9 @@
     "Gradle.ConfigurationSingletonTest.configurationTest.executor": "Run",
     "Gradle.ConfigurationSingletonTest.executor": "Run",
     "Gradle.MemberRepositoryTest.executor": "Run",
+    "Gradle.MemberServiceTest.executor": "Run",
+    "Gradle.MemberServiceTest.중복_회원_예외.executor": "Run",
+    "Gradle.OrderServiceTest.executor": "Run",
     "Gradle.SingletonTest.executor": "Run",
     "Gradle.SingletonTest.pureContainer.executor": "Run",
     "Gradle.SingletonTest.singletonServiceTest.executor": "Run",
@@ -140,6 +127,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "oyatplum",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/yeji/Desktop/UMC-6th-Spring-Study/oyatplum/springboot_jpa/src/test/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -153,10 +141,14 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/oyatplum/springboot_jpa/src/test/resources" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="umc_6th.springboot_jpa.service" />
       <recent name="umc_6th.springboot_jpa" />
       <recent name="umc_6th.spring_principles.singleton" />
     </key>
@@ -164,79 +156,7 @@
       <recent name="umc_6th.spring_principles.scan.filter" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MemberRepositoryTest">
-    <configuration name="AutoAppConfigTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/oyatplum/spring_principles" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;umc_6th.spring_principles.scan.AutoAppConfigTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="ComponentFilterAppConfigTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/oyatplum/spring_principles" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;umc_6th.spring_principles.scan.filter.ComponentFilterAppConfigTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="ConfigurationSingletonTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/oyatplum/spring_principles" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;umc_6th.spring_principles.singleton.ConfigurationSingletonTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.OrderServiceTest">
     <configuration name="MemberRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -251,6 +171,78 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;umc_6th.springboot_jpa.MemberRepositoryTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemberServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/oyatplum/springboot_jpa" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;umc_6th.springboot_jpa.service.MemberServiceTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemberServiceTest.중복_회원_예외" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/oyatplum/springboot_jpa" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;umc_6th.springboot_jpa.service.MemberServiceTest.중복_회원_예외&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="OrderServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/oyatplum/springboot_jpa" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;umc_6th.springboot_jpa.service.OrderServiceTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -294,11 +286,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.OrderServiceTest" />
+        <item itemvalue="Gradle.MemberServiceTest" />
+        <item itemvalue="Gradle.MemberServiceTest.중복_회원_예외" />
         <item itemvalue="Gradle.MemberRepositoryTest" />
         <item itemvalue="Gradle.SpringbootJpaApplicationTests.contextLoads" />
-        <item itemvalue="Gradle.AutoAppConfigTest" />
-        <item itemvalue="Gradle.ComponentFilterAppConfigTest" />
-        <item itemvalue="Gradle.ConfigurationSingletonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +314,7 @@
       <workItem from="1714302875948" duration="20995000" />
       <workItem from="1714891431500" duration="385000" />
       <workItem from="1714892485172" duration="29000" />
-      <workItem from="1714892516901" duration="14927000" />
+      <workItem from="1714892516901" duration="37023000" />
     </task>
     <servers />
   </component>

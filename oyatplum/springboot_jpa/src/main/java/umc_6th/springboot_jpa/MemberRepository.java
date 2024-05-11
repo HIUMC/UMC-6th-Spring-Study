@@ -3,6 +3,7 @@ package umc_6th.springboot_jpa;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;
+import umc_6th.springboot_jpa.domain.Member;
 
 @Repository
 public class MemberRepository {
