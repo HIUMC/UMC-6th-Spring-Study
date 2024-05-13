@@ -5,14 +5,57 @@
   controller는 @Controller 어노테이션을 달아줘야 함
 
   GetMapping?
+<aside>
+💡 **@RequestMapping이란?**
+특정 url을 요청을 수행할 Controller과 매핑하여 지정하는 어노테이션
 
-  **spring-boot-devtools**를 사용하면 html을 수정할 때마다 컴파일할 필요없이 build→recompile ‘hello.html’만 해주면 됨
+**@RequestMapping이 사용하는 속성**
+
+- **value**
+  value는 연결할 url을 지칭한다. 보통 호스트 주소와 포트 번호를 제외하고, REST API에 따른 url을 설계한다.
+
+    ```java
+    @RequestMapping(value="/hello")
+    ```
+
+  localhost:8080/hello로 url을 입력했을 경우에 해당
+
+  value를 생략하거나 다중 요청도 가능하다.
+
+    ```java
+    @RequestMapping({"/hello", "/hello-buddy", "/hello/**"}
+    ```
+
+
+**@GetMapping**
+
+```java
+@Controller
+public class HelloController {
+
+    @GetMapping("hello")
+    public String hello(){
+        return "hello";
+    }
+}
+```
+
+HelloController를 새로 만들어주고 어노테이션을 통해 controller임을 명시해줍니다.
+
+그 다음으로 @GetMapping("hello")를 적어줬습니다.
+
+이는 localhost:8080/hello 요청이 들어오면 아래의 함수를 실행하라고 해석하시면 됩니다.
+
+</aside>
+
+  - **spring-boot-devtools**를 사용하면 html을 수정할 때마다 컴파일할 필요없이 build→recompile ‘hello.html’만 해주면 됨
 
   ## H2 데이터베이스 설치
 
   ## JPA와 DB 설정, 동작확인
 
   @Entity?
+  해당 클래스가 엔티티 클래스임을 Spring에 알려준다
 
 # <섹션2 도메인 분석 설계>
 
@@ -76,6 +119,31 @@ JPA가 이런 제약을 두는 이유는 JPA 구현 라이브러리가 객체�
 개발 순서 : 서비스, 리포지토리 계층을 개발하고, 테스트 케이스를 작성해서 검증, 마지막에 웹 계층 적용
 
 # <섹션4 회원 도메인 개발>
+## 회원 리포지토리 개발
+
+`@PersistenceContext` ?
+
+<aside>
+💡 **영속성 컨텍스트?**
+엔티티를 영구 저장하는 환경
+
+**@PersistenceContext**
+EntityManager(영속성 관리)를 빈으로 주입할 때 사용하는 어노테이션
+
+- EntityManagerFactory에서 새로운 EntityManager를 생성하거나
+- Transaction에 의해 기존에 생성된 EntityManager를 반환해줍니다.
+</aside>
+
+EntityManager 주입
+
+## 회원 서비스 개발
+
+`@Transactional(readOnly = true)`  : DB에서 데이터를 읽기만 하는 서비스 메서드에 적용, 수정 X
+
+`@RequiredArgsConstructor`  final필드에 대해 생성자를 생성해준다.
+
+## 회원 기능 테스트
 # <섹션5 상품 도메인 개발>
+
 # <섹션6 주문 도메인 개발>
 # <섹션7 웹 계층 개발>

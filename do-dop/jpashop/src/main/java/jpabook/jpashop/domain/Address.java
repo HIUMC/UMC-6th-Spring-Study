@@ -3,7 +3,7 @@ package jpabook.jpashop.domain;
 import jakarta.persistence.Embedded;
 import lombok.Getter;
 
-@Embedded
+//@Embedded
 @Getter
 public class Address {
     private String city;
