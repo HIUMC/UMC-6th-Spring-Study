@@ -5,25 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c473387c-a6b4-4eb2-a974-987b81c05918" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/springboot_jpa.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/exception/NotEnoughStockException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/repository/ItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/repository/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/repository/OrderSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/service/ItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/service/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/test/java/umc_6th/springboot_jpa/service/MemberServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/test/java/umc_6th/springboot_jpa/service/OrderServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/test/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/resources/templates/fragments/bodyHeader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/resources/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/item/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/item/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/test/java/umc_6th/springboot_jpa/MemberRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/SpringbootJpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/SpringbootJpaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/test/java/umc_6th/springboot_jpa/service/OrderServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/springboot_jpa/src/test/java/umc_6th/springboot_jpa/service/OrderServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,61 +74,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Gradle./Users/yeji/Desktop/UMC-6th-Spring-Study/oyatplum/spring_principles/build.gradle.executor": "Run",
-    "Gradle.ApplicationContextExtendsFindTest.executor": "Run",
-    "Gradle.ApplicationContextExtendsFindTest.findAllBeanByObjectType.executor": "Run",
-    "Gradle.ApplicationContextInfoTest.executor": "Run",
-    "Gradle.ApplicationContextInfoTest.findApplicationBean.executor": "Run",
-    "Gradle.ApplicationContextSameBeanFindTest.executor": "Run",
-    "Gradle.ApplicationContextSameBeanFindTest.findAllBeanByType.executor": "Run",
-    "Gradle.AutoAppConfigTest.executor": "Run",
-    "Gradle.BeanDefinitionTest.executor": "Run",
-    "Gradle.Build springboot_jpa.executor": "Run",
-    "Gradle.ComponentFilterAppConfigTest.executor": "Run",
-    "Gradle.ConfigurationSingletonTest.configurationTest.executor": "Run",
-    "Gradle.ConfigurationSingletonTest.executor": "Run",
-    "Gradle.MemberRepositoryTest.executor": "Run",
-    "Gradle.MemberServiceTest.executor": "Run",
-    "Gradle.MemberServiceTest.중복_회원_예외.executor": "Run",
-    "Gradle.OrderServiceTest.executor": "Run",
-    "Gradle.SingletonTest.executor": "Run",
-    "Gradle.SingletonTest.pureContainer.executor": "Run",
-    "Gradle.SingletonTest.singletonServiceTest.executor": "Run",
-    "Gradle.SingletonTest.springContainer.executor": "Run",
-    "Gradle.SpringbootJpaApplicationTests.contextLoads.executor": "Run",
-    "Gradle.StatefulServiceTest.executor": "Run",
-    "Gradle.XmlAppContext.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.SpringbootJpaApplication.executor": "Run",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "oyatplum",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/yeji/Desktop/UMC-6th-Spring-Study/oyatplum/springboot_jpa/src/test/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Gradle./Users/yeji/Desktop/UMC-6th-Spring-Study/oyatplum/spring_principles/build.gradle.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ApplicationContextExtendsFindTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ApplicationContextExtendsFindTest.findAllBeanByObjectType.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ApplicationContextInfoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ApplicationContextInfoTest.findApplicationBean.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ApplicationContextSameBeanFindTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ApplicationContextSameBeanFindTest.findAllBeanByType.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AutoAppConfigTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BeanDefinitionTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build springboot_jpa.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ComponentFilterAppConfigTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ConfigurationSingletonTest.configurationTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ConfigurationSingletonTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MemberRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MemberServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MemberServiceTest.중복_회원_예외.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.OrderServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SingletonTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SingletonTest.pureContainer.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SingletonTest.singletonServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SingletonTest.springContainer.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringbootJpaApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StatefulServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.XmlAppContext.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.SpringbootJpaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;oyatplum&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yeji/Desktop/UMC-6th-Spring-Study/oyatplum/springboot_jpa/src/test/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/oyatplum/springboot_jpa/src/test/resources" />
@@ -156,7 +145,7 @@
       <recent name="umc_6th.spring_principles.scan.filter" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.OrderServiceTest">
+  <component name="RunManager" selected="Spring Boot.SpringbootJpaApplication">
     <configuration name="MemberRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -314,7 +303,8 @@
       <workItem from="1714302875948" duration="20995000" />
       <workItem from="1714891431500" duration="385000" />
       <workItem from="1714892485172" duration="29000" />
-      <workItem from="1714892516901" duration="37023000" />
+      <workItem from="1714892516901" duration="39391000" />
+      <workItem from="1715589973547" duration="3152000" />
     </task>
     <servers />
   </component>

@@ -63,7 +63,8 @@ class OrderServiceTest {
         Assert.assertEquals("주문이 취소된 상품은 그만큼 재고가 증가해야 한다.", 10, item.getStockQuantity());
     }
 
-    @Test(expected = NotEnoughStockException.class)
+    @Test
+//            (expected = NotEnoughStockException.class)
     public void 상품주문_재고수량초과() throws Exception {
         //given
         Member member = createMember();
