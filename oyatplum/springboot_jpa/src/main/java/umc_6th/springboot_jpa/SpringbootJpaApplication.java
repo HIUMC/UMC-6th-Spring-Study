@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 //    hello.setData("hello");
 //    String data = hello.getData();
 //    System.out.println("data = " + data) ;
-        SpringApplication.run(SpringbootJpaApplication.class, args);
+        //SpringApplication.run(SpringbootJpaApplication.class, args);
 
     }
 
