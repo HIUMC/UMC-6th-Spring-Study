@@ -6,6 +6,8 @@ import lombok.Setter;
 
 import java.time.LocalDateTime;
 
+import static jakarta.persistence.FetchType.LAZY;
+
 @Entity
 @Getter @Setter
 public class Reserve {
@@ -18,11 +20,11 @@ public class Reserve {
 
     private LocalDateTime reserve_time;
 
-    @ManyToOne
+    @ManyToOne(fetch = LAZY,cascade =  CascadeType.ALL)
     @JoinColumn(name = "doctor_id")
     private Doctor doctor;
 
-    @ManyToOne
+    @ManyToOne(fetch = LAZY,cascade =  CascadeType.ALL)
     @JoinColumn(name = "patient_id")
     private Patient patient;
 

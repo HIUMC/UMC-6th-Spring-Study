@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c473387c-a6b4-4eb2-a974-987b81c05918" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oyatplum/hongik_hospital/src/main/java/umc_6th/hongik_hospital/domain/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/hongik_hospital/src/main/java/umc_6th/hongik_hospital/domain/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oyatplum/hongik_hospital/src/main/java/umc_6th/hongik_hospital/domain/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/hongik_hospital/src/main/java/umc_6th/hongik_hospital/domain/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oyatplum/hongik_hospital/src/main/java/umc_6th/hongik_hospital/domain/Reserve.java" beforeDir="false" afterPath="$PROJECT_DIR$/oyatplum/hongik_hospital/src/main/java/umc_6th/hongik_hospital/domain/Reserve.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -318,7 +320,7 @@
       <workItem from="1714892516901" duration="39391000" />
       <workItem from="1715589973547" duration="4141000" />
       <workItem from="1715748471057" duration="7605000" />
-      <workItem from="1715756091379" duration="2725000" />
+      <workItem from="1715756091379" duration="4265000" />
     </task>
     <servers />
   </component>

@@ -7,6 +7,8 @@ import lombok.Setter;
 import java.util.ArrayList;
 import java.util.List;
 
+import static jakarta.persistence.FetchType.LAZY;
+
 @Entity
 //@Table(name = "doctors")
 @Getter @Setter
@@ -19,7 +21,7 @@ public class Doctor {
     private String doctor_name;
     private String phoneNum;
 
-    @ManyToOne
+    @ManyToOne(fetch = LAZY,cascade =  CascadeType.ALL)
     @JoinColumn(name = "department_id")
     private Department department;
 
