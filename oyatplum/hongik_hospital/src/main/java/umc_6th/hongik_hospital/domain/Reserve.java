@@ -3,6 +3,7 @@ package umc_6th.hongik_hospital.domain;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
+import umc_6th.hongik_hospital.repository.ReserveRepository;
 
 import java.time.LocalDateTime;
 
@@ -28,5 +29,24 @@ public class Reserve {
     @JoinColumn(name = "patient_id")
     private Patient patient;
 
+
+    public void setPatient(Patient patient){
+        this.patient = patient;
+        patient.getReserves().add(this);
+    }
+
+    public void setDoctor(Doctor doctor){
+        this.doctor = doctor;
+        doctor.getReserves().add(this);
+    }
+
+    public static Reserve createReserve(Patient patient, Doctor doctor){
+        Reserve reserve = new Reserve();
+        reserve.setPatient(patient);
+        reserve.setDoctor(doctor);
+        reserve.setReserve_status(ReserveStatus.RESERVE);
+        reserve.setReserve_time(LocalDateTime.now());
+        return reserve;
+    }
 
 }
