@@ -40,6 +40,10 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 >>>>>>> main:ity0526/IntroductionSpring/build.gradle
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+//	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	runtimeOnly 'com.h2database:h2'
+
 }
 
 tasks.named('test') {
