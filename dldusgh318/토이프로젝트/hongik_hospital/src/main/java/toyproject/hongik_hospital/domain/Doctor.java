@@ -16,7 +16,7 @@ public class Doctor {
     private Long id;
 
     private int career;
-    private String doctor_name;
+    private String name;
     private String phone_num;
 
     @ManyToOne(fetch = FetchType.LAZY)

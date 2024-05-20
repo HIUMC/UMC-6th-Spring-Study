@@ -15,7 +15,7 @@ public class Hospital {
     @Column(name = "hospital_id")
     private Long id;
 
-    private String hospital_name;
+    private String name;
     private Address address;
 
     @OneToMany(mappedBy = "hospital")

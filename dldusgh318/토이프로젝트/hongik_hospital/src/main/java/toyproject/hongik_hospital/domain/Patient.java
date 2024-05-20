@@ -19,7 +19,7 @@ public class Patient {
 
     @Enumerated(EnumType.STRING)
     private PatientGender gender;
-    private String username;
+    private String name;
 
     @OneToMany(mappedBy = "patient")
     private List<Reserve> reserveList = new ArrayList<>();
