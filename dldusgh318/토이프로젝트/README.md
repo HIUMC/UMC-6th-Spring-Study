@@ -15,12 +15,14 @@
 	ㄴ어디에... DoctorService?
 
 
--예약 ->reserveService에 구현??
+-예약 ->ReserveService
 
 환자와 의사가 예약 정보를 조회할 수 있어야함
 각 환자는 특정 의사에 대해 하나의 예약만 가능
 진료 완료된 경우 병원비 정보 포함
 
 
--모든 예약 데이터는 어디서??
+-모든 예약 데이터는 어디서
+
+	ㄴReserveService
 
