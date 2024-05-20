@@ -35,6 +35,10 @@ public class ConfigurationSingletonTest {
         ApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
         AppConfig been = ac.getBean(AppConfig.class);
 
+<<<<<<< HEAD:do-dop/스프링_기본/core/src/test/java/hello/core/singleton/ConfigurationSingletonTest.java
+        System.out.println("bean = " + bean.getClass());
+=======
         System.out.println("bean = " + been.getClass());
+>>>>>>> main:oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/singleton/ConfigurationSingletonTest.java
     }
 }

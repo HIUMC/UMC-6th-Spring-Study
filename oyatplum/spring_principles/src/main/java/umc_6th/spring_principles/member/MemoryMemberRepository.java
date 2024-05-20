@@ -2,8 +2,6 @@ package umc_6th.spring_principles.member;
 
 import org.springframework.stereotype.Component;
 
-import org.springframework.stereotype.Component;
-
 import java.util.HashMap;
 import java.util.Map;
 

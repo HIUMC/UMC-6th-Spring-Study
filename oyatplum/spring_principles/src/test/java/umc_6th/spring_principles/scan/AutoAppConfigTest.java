@@ -1,15 +1,16 @@
-package umc_6th.spring_principles.scan;
+package hello.core.scan;
 
+import hello.core.AutoAppConfig;
+import hello.core.member.Member;
+import hello.core.member.MemberService;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import umc_6th.spring_principles.AppConfig;
-import umc_6th.spring_principles.AutoAppConfig;
-import umc_6th.spring_principles.member.MemberService;
 
 import static org.assertj.core.api.Assertions.*;
 
 public class AutoAppConfigTest {
+
     @Test
     void basicScan(){
         AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(AutoAppConfig.class);

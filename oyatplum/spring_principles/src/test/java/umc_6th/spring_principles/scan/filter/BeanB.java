@@ -1,4 +1,4 @@
-package umc_6th.spring_principles.scan.filter;
+package hello.core.scan.filter;
 
 @MyExcludeComponent
 public class BeanB {
