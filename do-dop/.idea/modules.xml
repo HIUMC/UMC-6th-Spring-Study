@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/do-dop.iml" filepath="$PROJECT_DIR$/.idea/do-dop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hongik_hospital.main.iml" filepath="$PROJECT_DIR$/.idea/modules/hongik_hospital.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jpashop.main.iml" filepath="$PROJECT_DIR$/.idea/modules/jpashop.main.iml" />
     </modules>
   </component>
