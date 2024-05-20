@@ -11,17 +11,39 @@ java {
 	sourceCompatibility = '17'
 }
 
+//lombok 설정 추가 시작
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+//lombok 설정 추가 끝
+
 repositories {
 	mavenCentral()
 }
 
 dependencies {
+<<<<<<< HEAD:dldusgh318/core/build.gradle
+	implementation 'org.springframework.boot:spring-boot-starter'
+
+	//lombok 라이브러리 추가 시작
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+	testCompileOnly 'org.projectlombok:lombok'
+	testAnnotationProcessor 'org.projectlombok:lombok'
+	//lombok 라이브러리 추가 끝
+	testImplementation('org.springframework.boot:spring-boot-starter-test') {
+		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+	}
+=======
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 //	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
 	runtimeOnly 'com.h2database:h2'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+>>>>>>> 603252662a71571ea71544fb6fe44e71ee77fe0b:insa658723/스프링 입문/build.gradle
 }
 
 tasks.named('test') {
