@@ -25,4 +25,8 @@ public class Doctor {
     @OneToMany(mappedBy = "doctor")
     private List<Reserve> reserveList=new ArrayList<>();
 
+
+
+
+
 }

@@ -35,11 +35,21 @@ public class Reserve {
         return reserve;
     }
 
+    //연관관계 메서드
+    private void setPatient(Patient patient){
+        this.patient=patient;
+        patient.getReserveList().add(this);
+    }
+
+    private void setDoctor(Doctor doctor){
+        this.doctor=doctor;
+        doctor.getReserveList().add(this);
+    }
+
     public void cancel(){
         if (this.getStatus()==ReserveStatus.COMPLETE){
             throw new IllegalStateException("이미 끝난 예약은 취소가 불가능합니다");
         }
-
         this.setStatus(ReserveStatus.CANCEL);
     }
 

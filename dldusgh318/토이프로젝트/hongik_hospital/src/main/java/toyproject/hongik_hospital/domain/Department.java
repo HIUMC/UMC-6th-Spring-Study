@@ -22,4 +22,11 @@ public class Department {
 
     @OneToMany(mappedBy = "department")
     private List<Doctor> doctorList=new ArrayList<>();
+
+    //생성메서드? 의사 명단 생성ㅇㅇ
+    public static Department createDepartment(Doctor doctor){
+        Department department=new Department();
+        department.getDoctorList().add(doctor);
+        return department;
+    }
 }
