@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="799b9747-43eb-4891-8c11-eb9ddb056500" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Delivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/DeliveryStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/item/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/item/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/item/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/item/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/exception/NotEnoughStockException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/repository/ItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/service/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/resources/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/test/java/jpabook/jpashop/service/MemberServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/test/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/Hongik_Hospital_Resreve/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/Hongik_Hospital_Resreve/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/Hongik_Hospital_Resreve/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/Hongik_Hospital_Resreve/src/main/java/domain/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/Hongik_Hospital_Resreve/src/main/java/domain/AllReserve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/Hongik_Hospital_Resreve/src/main/java/domain/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/Hongik_Hospital_Resreve/src/main/java/domain/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/Hongik_Hospital_Resreve/src/main/java/domain/Hospital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/Hongik_Hospital_Resreve/src/main/java/domain/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/Hongik_Hospital_Resreve/src/main/java/domain/Reserve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/Hongik_Hospital_Resreve/src/main/java/domain/ReserveStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/Hongik_Hospital_Resreve/src/main/java/hongikHospital/HongikHospitalResreve/HongikHospitalResreveApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/Hongik_Hospital_Resreve/src/main/java/repository/ALLReserveRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/Hongik_Hospital_Resreve/src/main/java/repository/DepartmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/Hongik_Hospital_Resreve/src/main/java/repository/DoctorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/Hongik_Hospital_Resreve/src/main/java/repository/HospitalRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/Hongik_Hospital_Resreve/src/main/java/repository/PatientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/Hongik_Hospital_Resreve/src/main/java/repository/ReserveRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/Hongik_Hospital_Resreve/src/main/java/service/DoctorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/Hongik_Hospital_Resreve/src/main/java/service/ReserveService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/Hongik_Hospital_Resreve/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/Hongik_Hospital_Resreve/src/test/java/hongikHospital/HongikHospitalResreve/HongikHospitalResreveApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/src/main/java/hello/hellospring/aop/TimeTraceAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/src/main/java/hello/hellospring/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/src/main/java/hello/hellospring/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/src/main/java/hello/hellospring/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/src/main/java/hello/hellospring/controller/MemberForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/src/main/java/hello/hellospring/domain/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/src/main/java/hello/hellospring/repository/JdbcMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/src/main/java/hello/hellospring/repository/JdbcTemplateMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/src/main/java/hello/hellospring/repository/JpaMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/src/main/java/hello/hellospring/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/src/main/java/hello/hellospring/repository/MemoryMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/src/main/java/hello/hellospring/repository/SpringDataJpaMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/src/main/java/hello/hellospring/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/src/main/java/hello/hellospring/service/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/src/main/resources/static/hello-static.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/src/main/resources/templates/hello-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/src/main/resources/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/src/main/resources/templates/members/createMemberForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/src/main/resources/templates/members/memberList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/src/test/java/hello/hellospring/repository/MemoryMemberRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/src/test/java/hello/hellospring/service/MemberServiceIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/src/test/java/hello/hellospring/service/MemberServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/main/java/hello/core/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/main/java/hello/core/AutoAppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/main/java/hello/core/HelloLombok.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/main/java/hello/core/MemberApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/main/java/hello/core/OrderApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/main/java/hello/core/discount/FixDiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/main/java/hello/core/discount/RateDiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/main/java/hello/core/member/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/main/java/hello/core/member/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/main/java/hello/core/member/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/main/java/hello/core/member/MemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/main/java/hello/core/member/MemoryMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/main/java/hello/core/order/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/main/java/hello/core/order/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/main/java/hello/core/order/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/autowired/AllBeanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/autowired/AutowiredTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/beandefinition/BeanDefinitionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/beanfind/ApplicationContextBasicFindTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/beanfind/ApplicationContextExtendsFindTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/beanfind/ApplicationContextInfoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/beanfind/ApplicationContextSameBeanFindTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/discount/RateDiscountPolicyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/lifecycle/BeanLifeCycleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/lifecycle/NetworkClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/member/MemberServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/order/OrderServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/order/OrderServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/scan/AutoAppConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/scan/filter/ComponentFilterAppConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/scope/PrototypeScope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/scope/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/scope/SingletonWithPrototypeTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/singleton/ConfigurationSingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/singleton/SingletonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/singleton/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/singleton/StatefulService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/singleton/StatefulServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/xml/XmlAppContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/스프링핵심원리.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../insa658723/자바 기초/자바정리.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/build/classes/java/main/hello/hellospring/HelloSpringApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/build/resources/main/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/out/production/classes/hello/hellospring/HelloSpringApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/out/production/classes/hello/hellospring/Springconfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/out/production/classes/hello/hellospring/controller/HelloController$Hello.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/out/production/classes/hello/hellospring/controller/HelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/out/production/classes/hello/hellospring/controller/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/out/production/classes/hello/hellospring/controller/MemberController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/out/production/classes/hello/hellospring/controller/MemberForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/out/production/classes/hello/hellospring/domain/Member.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/out/production/classes/hello/hellospring/repository/MemberRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/out/production/classes/hello/hellospring/repository/MemoryMemberRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/out/production/classes/hello/hellospring/service/MemberService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/out/production/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/out/production/resources/templates/hello-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/out/test/classes/hello/hellospring/HelloSpringApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/out/test/classes/hello/hellospring/repository/MemoryMemberRepositoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/out/test/classes/hello/hellospring/service/MemberServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/src/main/java/hello/hellospring/HelloSpringApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/src/main/java/hello/hellospring/Springconfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/src/main/java/hello/hellospring/repository/MemoryMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/src/main/resources/static/hello-static.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/src/main/resources/templates/hello-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/src/main/resources/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/src/main/resources/templates/members/createMemberForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/src/main/resources/templates/members/memberList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/src/test/java/hello/hellospring/HelloSpringApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/src/test/java/hello/hellospring/repository/MemoryMemberRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/hongik_hospital/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/hongik_hospital/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/hongik_hospital/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/hongik_hospital/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/hongik_hospital/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/hongik_hospital/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/hongik_hospital/src/main/java/umc_6th/hongik_hospital/HongikHospitalApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/hongik_hospital/src/main/java/umc_6th/hongik_hospital/domain/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/hongik_hospital/src/main/java/umc_6th/hongik_hospital/domain/AllReserve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/hongik_hospital/src/main/java/umc_6th/hongik_hospital/domain/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/hongik_hospital/src/main/java/umc_6th/hongik_hospital/domain/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/hongik_hospital/src/main/java/umc_6th/hongik_hospital/domain/GenderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/hongik_hospital/src/main/java/umc_6th/hongik_hospital/domain/Hospital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/hongik_hospital/src/main/java/umc_6th/hongik_hospital/domain/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/hongik_hospital/src/main/java/umc_6th/hongik_hospital/domain/Reserve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/hongik_hospital/src/main/java/umc_6th/hongik_hospital/domain/ReserveStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/hongik_hospital/src/main/java/umc_6th/hongik_hospital/repository/DepartmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/hongik_hospital/src/main/java/umc_6th/hongik_hospital/repository/DoctorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/hongik_hospital/src/main/java/umc_6th/hongik_hospital/repository/HospitalRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/hongik_hospital/src/main/java/umc_6th/hongik_hospital/repository/PatientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/hongik_hospital/src/main/java/umc_6th/hongik_hospital/repository/ReserveRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/hongik_hospital/src/main/java/umc_6th/hongik_hospital/service/ReserveService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/hongik_hospital/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/hongik_hospital/src/test/java/umc_6th/hongik_hospital/HongikHospitalApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/java_basic/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/src/main/java/umc_6th/spring_introduction/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/src/main/java/umc_6th/spring_introduction/SpringIntroductionApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/src/main/java/umc_6th/spring_introduction/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/src/main/java/umc_6th/spring_introduction/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/src/main/java/umc_6th/spring_introduction/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/src/main/java/umc_6th/spring_introduction/controller/MemberForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/src/main/java/umc_6th/spring_introduction/domain/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/src/main/java/umc_6th/spring_introduction/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/src/main/java/umc_6th/spring_introduction/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/src/main/resources/static/hello-static.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/src/main/resources/templates/hello-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/src/main/resources/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/src/main/resources/templates/members/createMemberForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/src/main/resources/templates/members/memberList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/src/test/java/umc_6th/spring_introduction/SpringIntroductionApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/src/test/java/umc_6th/spring_introduction/service/MemberServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/SpringPrinciplesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/discount/DiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/discount/FixDiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/discount/RateDiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/member/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/member/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/resources/appConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/SpringPrinciplesApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/singleton/StatefulService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/singleton/StatefulServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/SpringbootJpaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/Delivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/DeliveryStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/item/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/item/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/item/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/domain/item/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/exception/NotEnoughStockException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/repository/ItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/repository/OrderSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/service/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/java/umc_6th/springboot_jpa/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/resources/templates/fragments/bodyHeader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/resources/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/test/java/umc_6th/springboot_jpa/SpringbootJpaApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/test/java/umc_6th/springboot_jpa/service/MemberServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/test/java/umc_6th/springboot_jpa/service/OrderServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oyatplum/springboot_jpa/src/test/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/do-dop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/스프링_기본/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/.idea/스프링_기본.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../insa658723/Hongik_Hospital_Resreve/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../insa658723/Hongik_Hospital_Resreve/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../insa658723/Hongik_Hospital_Resreve/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../insa658723/Hongik_Hospital_Resreve/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/hongik_hospital/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/main/java/hello/core/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/main/java/hello/core/AutoAppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/main/java/hello/core/CoreApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/main/java/hello/core/CoreApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/main/java/hello/core/MemberApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/MemberApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/main/java/hello/core/OrderApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/OrderApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/main/java/hello/core/annotation/MainDiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/main/java/hello/core/annotation/MainDiscountPolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/main/java/hello/core/common/MyLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/main/java/hello/core/discount/DiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/main/java/hello/core/discount/DiscountPolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/main/java/hello/core/discount/FixDiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/스프링_기본/core/src/main/java/hello/core/discount/FixDiscountPolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/main/java/hello/core/discount/RateDiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/스프링_기본/core/src/main/java/hello/core/discount/RateDiscountPolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/main/java/hello/core/member/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/main/java/hello/core/member/Grade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/main/java/hello/core/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/member/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/main/java/hello/core/member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/member/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/main/java/hello/core/member/MemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/main/java/hello/core/member/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/member/MemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/main/java/hello/core/member/MemoryMemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/main/java/hello/core/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/order/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/main/java/hello/core/order/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/order/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/main/java/hello/core/order/OrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/main/java/hello/core/web/LogDemoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/main/java/hello/core/web/LogDemoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/main/resources/appConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/main/resources/appConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/CoreApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/CoreApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/HelloLombok.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/autowired/AllBeanTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/autowired/AutowiredTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/beandefinitionTest/BeanDefinitionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/beanDefinition/BeanDefinitionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/beanfind/ApplicationContextBasicFindTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/beanfind/ApplicationContextBasicFindTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/beanfind/ApplicationContextExtendsFindTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/beanfind/ApplicationContextExtendsFindTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/beanfind/ApplicationContextInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/beanfind/ApplicationContextInfoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/beanfind/ApplicationContextSameBeanFindTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/beanfind/ApplicationContextSameBeanFindTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/discount/RateDiscountPolicyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/discount/RateDiscountPolicyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/lifecycle/BeanLifeCycleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/lifecycle/NetworkClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/member/MemberServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/member/MemberServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/order/OrderServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/order/OrderServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/scan/AutoAppConfigTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/scan/filter/BeanA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/scan/filter/BeanA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/scan/filter/BeanB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/scan/filter/BeanB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/scan/filter/ComponentFilterAppConfigTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/scan/filter/MyExcludeComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/scan/filter/MyExcludeComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/scan/filter/MyIncludeComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../insa658723/스프링 핵심원리/src/test/java/hello/core/scan/filter/MyIncludeComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/scope/PrototypeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/scope/SingletonTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/scope/SingletonWithPrototypeTest1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/singleton/ConfigurationSingletonTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/singleton/SingletonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/singleton/SingletonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/singleton/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/singleton/SingletonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/singleton/StatefulService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/singleton/StatefulServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/core/src/test/java/hello/core/xml/XmlAppContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/xml/XmlAppContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_기본/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/스프링_기본/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/sql/ddl.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/src/main/java/hello/hellospring/HelloSpringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/src/main/java/hello/hellospring/HelloSpringApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/src/main/java/hello/hellospring/SpringConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/src/main/java/hello/hellospring/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/src/main/java/hello/hellospring/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/src/main/java/hello/hellospring/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/src/main/java/hello/hellospring/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/src/main/java/hello/hellospring/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/src/main/java/hello/hellospring/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/src/main/java/hello/hellospring/controller/MemberForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/src/main/java/hello/hellospring/controller/MemberForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/src/main/java/hello/hellospring/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/src/main/java/hello/hellospring/domain/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/src/main/java/hello/hellospring/repository/JdbcMemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/src/main/java/hello/hellospring/repository/JdbcTemplateMemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/src/main/java/hello/hellospring/repository/JpaMemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/src/main/java/hello/hellospring/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/src/main/java/hello/hellospring/repository/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/src/main/java/hello/hellospring/repository/MemoryMemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/src/main/java/umc_6th/spring_introduction/repository/MemoryMemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/src/main/java/hello/hellospring/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/src/main/java/hello/hellospring/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/src/main/resources/static/hello-static.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/out/production/resources/static/hello-static.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/out/production/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/src/main/resources/templates/hello-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/src/main/resources/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/out/production/resources/templates/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/out/production/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/src/main/resources/templates/members/createMemberForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/out/production/resources/templates/members/createMemberForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/src/main/resources/templates/members/memberList.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/out/production/resources/templates/members/memberList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/src/test/java/hello/hellospring/HelloSpringApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/src/test/java/hello/hellospring/HelloSpringApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/src/test/java/hello/hellospring/repository/MemoryMemberRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/src/test/java/umc_6th/spring_introduction/repository/MemoryMemberRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/src/test/java/hello/hellospring/service/MemberServiceIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_introduction/src/test/java/umc_6th/spring_introduction/service/MemberServiceIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링_입문/src/test/java/hello/hellospring/service/MemberServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/src/test/java/hello/hellospring/service/MemberServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/워크북/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../insa658723/스프링 입문/sql/ddl.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/워크북/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/워크북/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/워크북/.idea/워크북.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/워크북/Chapter5.md" beforeDir="false" afterPath="$PROJECT_DIR$/워크북/Chapter5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ity0526/IntroductionSpring/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ity0526/IntroductionSpring/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/AutoAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/AutoAppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/annotation/MainDiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/annotation/MainDiscountPolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/common/MyLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/common/MyLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/member/MemoryMemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/member/MemoryMemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/order/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/web/LogDemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/web/LogDemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/web/LogDemoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/main/java/umc_6th/spring_principles/web/LogDemoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/HelloLombok.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/HelloLombok.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/autowired/AllBeanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/autowired/AllBeanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/autowired/AutowiredTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/autowired/AutowiredTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/lifecycle/BeanLifeCycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/lifecycle/BeanLifeCycleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/lifecycle/NetworkClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/lifecycle/NetworkClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/scan/AutoAppConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/scan/AutoAppConfigTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/scan/filter/BeanA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/scan/filter/BeanA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/scan/filter/BeanB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/scan/filter/BeanB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/scan/filter/ComponentFilterAppConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/scan/filter/ComponentFilterAppConfigTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/scan/filter/MyExcludeComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/scan/filter/MyExcludeComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/scan/filter/MyIncludeComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/scan/filter/MyIncludeComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/scope/PrototypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/scope/PrototypeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/scope/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/scope/SingletonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/scope/SingletonWithPrototypeTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/scope/SingletonWithPrototypeTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/singleton/ConfigurationSingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oyatplum/spring_principles/src/test/java/umc_6th/spring_principles/singleton/ConfigurationSingletonTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/hongik_hospital">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/jpashop">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/스프링_입문">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/jpashop">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="AnnotationType" />
+        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="MemberServiceTest" />
+    </enabled-run-configurations>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2gC3VqgG22m6WHCgwSbu3jjJdXV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "Gradle.Build hongik_hospital.executor": "Run",
+    "Gradle.Build jpashop.executor": "Run",
+    "Gradle.HongikHospitalApplicationTests.executor": "Run",
+    "Gradle.MemberRepositoryTest.executor": "Run",
+    "Gradle.MemberServiceTest.executor": "Run",
+    "Gradle.MemberServiceTest.회원가입.executor": "Run",
+    "Gradle.jpashop [dependencies].executor": "Run",
+    "JUnit.MemberServiceTest.executor": "Run",
+    "JUnit.MemberServiceTest.회원가입.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.HelloSpringApplication.executor": "Run",
+    "Spring Boot.HongikHospitalApplication.executor": "Run",
+    "Spring Boot.JpashopApplication.executor": "Debug",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "Merging do-dop",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/bagdoyeon/Desktop/UMC-6th/UMC-6th-Spring-Study/do-dop",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="jpabook.jpashop.domain" />
+      <recent name="jpabook.jpashop" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jpashop/src/test/resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="jpabook.jpashop.service" />
+      <recent name="jpabook.jpashop" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.HongikHospitalApplication">
+    <configuration name="HongikHospitalApplicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/hongik_hospital" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;toy_project.hongik_hospital.HongikHospitalApplicationTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemberServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/jpashop" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;jpabook.jpashop.service.MemberServiceTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemberServiceTest.회원가입" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/jpashop" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;jpabook.jpashop.service.MemberServiceTest.회원가입&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemberServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpashop.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpabook.jpashop.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jpabook.jpashop.service" />
+      <option name="MAIN_CLASS_NAME" value="jpabook.jpashop.service.MemberServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberServiceTest.회원가입" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpashop.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpabook.jpashop.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jpabook.jpashop.service" />
+      <option name="MAIN_CLASS_NAME" value="jpabook.jpashop.service.MemberServiceTest" />
+      <option name="METHOD_NAME" value="회원가입" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="hello-spring.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.hellospring.HelloSpringApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HongikHospitalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="hongik_hospital.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="toy_project.hongik_hospital.HongikHospitalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpashopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="jpashop.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="jpabook.jpashop.JpashopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.HongikHospitalApplicationTests" />
+        <item itemvalue="JUnit.MemberServiceTest" />
+        <item itemvalue="JUnit.MemberServiceTest.회원가입" />
+        <item itemvalue="Gradle.MemberServiceTest.회원가입" />
+        <item itemvalue="Gradle.MemberServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="799b9747-43eb-4891-8c11-eb9ddb056500" name="Changes" comment="" />
+      <created>1715187759090</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715187759090</updated>
+      <workItem from="1715187760196" duration="13349000" />
+      <workItem from="1715579166120" duration="11640000" />
+      <workItem from="1716188854460" duration="277000" />
+      <workItem from="1716189134920" duration="949000" />
+      <workItem from="1716190115094" duration="2390000" />
+      <workItem from="1716196094378" duration="1437000" />
+      <workItem from="1716201132914" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

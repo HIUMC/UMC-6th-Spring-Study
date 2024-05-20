@@ -11,5 +11,9 @@
         <module name="hongik_hospital.main" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hongik_hospital.main" target="17" />
+      <module name="jpashop.main" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

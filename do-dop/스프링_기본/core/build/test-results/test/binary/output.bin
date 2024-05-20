@@ -1,0 +1,3 @@
+Qkey = memberRepository1value = hello.core.member.MemoryMemberRepository@7fd4acee
+Qkey = memberRepository2value = hello.core.member.MemoryMemberRepository@6273c5a4
+™beansOfType = {memberRepository1=hello.core.member.MemoryMemberRepository@7fd4acee, memberRepository2=hello.core.member.MemoryMemberRepository@6273c5a4}
