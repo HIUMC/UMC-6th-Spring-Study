@@ -18,4 +18,5 @@ public class DepartmentRepository {
     public Department findById(Long id){
         return em.find(Department.class, id);
     }
+
 }
