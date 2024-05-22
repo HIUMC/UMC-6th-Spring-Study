@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.scan.filter.ComponentFilterAppConfigTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-15T08:20:03" hostname="intaeyeong-ui-noteubug.local" time="0.195">
+  <properties/>
+  <testcase name="filterScan()" classname="hello.core.scan.filter.ComponentFilterAppConfigTest" time="0.195"/>
+  <system-out><![CDATA[17:20:03.207 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext --
+                Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2cc44ad
+17:20:03.212 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+17:20:03.232 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner --
+                Identified candidate component class: file [/Users/intaeyoung/Desktop/UMC-6th-Spring-Study/ity0526/스프링 핵심 원리 - 기본편/build/classes/java/test/hello/core/scan/filter/BeanA.class]
+17:20:03.261 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+17:20:03.262 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+17:20:03.263 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+17:20:03.263 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+17:20:03.266 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'componentFilterAppConfigTest.ComponentFilterAppConfig'
+17:20:03.268 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'beanA'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
